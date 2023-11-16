@@ -1,0 +1,41 @@
+//데이터베이스 연동하는 코드
+//위치는 public partial class [폼명]:form 아래
+private const string ConnectionPocket = "Data Source=(local);Initial Catalog=Pocket;Integrated Security=True";
+
+//셀클릭 시 텍스트박스에 해당부분 띄워주는 코드
+private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+{
+    if(e.RowIndex >= 0)
+    {
+        DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
+
+        textBox1.Text = row.Cells["Name"].Value.ToString();
+        textBox5.Text = row.Cells["Price"].Value.ToString();
+    }
+}
+
+//그리드뷰에 테이블 불러오는 코드
+//위치는 initializecomponent(); 아래에 두면 됨
+ try
+ {
+     using(SqlConnection con = new SqlConnection(ConnectionMedicine))
+     {
+         con.Open();
+         string sql = "select * from [Medicine]";
+         SqlCommand cmd = new SqlCommand(sql, con);
+
+         SqlDataAdapter da = new SqlDataAdapter();
+         da.SelectCommand = cmd;
+
+         DataSet ds = new DataSet();
+
+         DataTable dt = ds.Tables["Medicine"];
+         da.Fill(ds, "t1");
+         dataGridView1.DataSource = ds.Tables["t1"];
+         con.Close();
+     }
+ }
+ catch (SqlException x)
+ {
+     MessageBox.Show(x.Message);
+ }
