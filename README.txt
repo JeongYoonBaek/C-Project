@@ -10,7 +10,8 @@
 231117 - 지도,주문수정 업데이트 / Ppt작업 중
 231120 AM - 회원가입 아이디 중복체크 업데이트 / Ppt작업 중
 231120 PM - 각종 Form 엔터키 활성화 / 차트Form 구현 / 차트Form 검색기능 구현 / 각종 Form 예외처리 작업 완 / search그리드뷰 여백 제거
-https://drive.google.com/file/d/15pNsWDethap0OjtJZo2-nfz4aKELZyHe/view?usp=sharing
+231121 AM - 영상촬영본 동봉
+https://drive.google.com/file/d/1Kl3fR3HrsvyA4ugonUzjwZMXi_hQe_q8/view?usp=sharing
 
 원하는거 있으면 ex ) 1. [ 내 용 ] 쓰기
 1.모르는게 있으면 질문하기
