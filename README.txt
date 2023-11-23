@@ -15,6 +15,8 @@
 https://drive.google.com/file/d/1hPv7TAqjG6eZ8S5ljONnPdaOGQNWCLzY/view?usp=sharing
 231123 AM - 발표 PPT 최종 완성
 https://drive.google.com/file/d/1Z-3DaodDAcFe19eBK3v_OB6YaeeSyC3y/view?usp=sharing
+231123 PM - 제출용
+https://we.tl/t-lc0TMVI2FC
 
 원하는거 있으면 ex ) 1. [ 내 용 ] 쓰기
 1.모르는게 있으면 질문하기
